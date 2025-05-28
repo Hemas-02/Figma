@@ -1,7 +1,5 @@
 # Ex09 Event Registration Web Application
-# NAME: hemalatha.R
-
-## Date:28/05/2025
+## Date:
 
 ## AIM:
 To design, develop and deploy a web application for event registration.
@@ -35,144 +33,427 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
-
 ```
-home page
+/* Android Large - 1 */
 
-// Login
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// Register
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
+position: relative;
+width: 920px;
+height: 1594px;
 
- <div style="width: 100%; height: 100%; background: #3B8279; flex-direction: column; justify-content: flex-start; align-items: flex-end; display: inline-flex">
-    <img style="width: 360px; height: 69px" src="https://via.placeholder.com/360x69" />
-    <img style="width: 360px; height: 647px" src="https://via.placeholder.com/360x647" />
-    <img style="width: 204px; height: 204px" src="https://via.placeholder.com/204x204" />
-    <div style="width: 250px; height: 66px; background: #FCFFFF"></div>
-    <div style="width: 220px; height: 29px; text-align: center; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">Login</div>
-    <div style="width: 250px; height: 64px; background: #FFFCFC"></div>
-    <div style="width: 205px; height: 34px; text-align: center; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">Register</div>
-</div>
+background: #7E3A3A;
+/* SAVEETHA ENGINEERNG COLLEGE */
 
-Events page 
+position: absolute;
+width: 920px;
+height: 187px;
+left: 0px;
+top: 26px;
 
-// List of Events
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-//  1 .  Bharatanatyam  <br/> <br/> 2 . Freestyle <br/><br/>3 . Folk <br/><br/>4 . Semi - Classical <br/><br/>5 . Hip pop <br/><br/>6 . Salsa <br/><br/>7 . Ballet dance <br/><br/>8 . Kathakali
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
+font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 130%;
+/* or 65px */
+display: flex;
+align-items: center;
+text-align: center;
 
- <div style="width: 100%; height: 100%; position: relative; background: white">
-    <img style="width: 356px; height: 716px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/356x716" />
-    <img style="width: 360px; height: 69px; left: -4px; top: 0px; position: absolute" src="https://via.placeholder.com/360x69" />
-    <div style="width: 247px; height: 71px; left: 55px; top: 110px; position: absolute; text-align: center; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">List of Events</div>
-    <div style="width: 286px; height: 495px; left: 48px; top: 189px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word"> 1 .  Bharatanatyam  <br/> <br/> 2 . Freestyle <br/><br/>3 . Folk <br/><br/>4 . Semi - Classical <br/><br/>5 . Hip pop <br/><br/>6 . Salsa <br/><br/>7 . Ballet dance <br/><br/>8 . Kathakali</div>
-</div>
+color: #FFFFFF;
+/* AFFILIATED TO ANNA UNIVERSITY */
+
+position: absolute;
+width: 920px;
+height: 187px;
+left: 4px;
+top: 610px;
+
+font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 130%;
+/* or 65px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+/* NIRF RANKED AUTONOMOUS INSTITUTION */
+
+position: absolute;
+width: 920px;
+height: 187px;
+left: -5px;
+top: 767px;
+
+font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 130%;
+/* or 65px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+/* Line 1 */
+
+position: absolute;
+width: 920px;
+height: 0px;
+left: 0px;
+top: 213px;
+
+border: 4px solid #FFFFFF;
+/* saveetha 1 */
+
+position: absolute;
+width: 400px;
+height: 400px;
+left: 115px;
+top: 212px;
+
+/* saveetha-removebg-preview-fotor-bg-remover-20231031194020 1 */
+
+position: absolute;
+width: 470px;
+height: 460px;
+left: 244px;
+top: 288px;
+/* Rectangle 1 */
+
+position: absolute;
+width: 560px;
+height: 124px;
+left: 199px;
+top: 1110px;
+
+background: #E5E5E5;
+
+/* LOGIN */
+
+position: absolute;
+width: 493px;
+height: 102px;
+left: 221px;
+top: 1121px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 130%;
+/* or 65px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+/* saveetha 5 */
+
+position: absolute;
+width: 343px;
+height: 309px;
+left: 288px;
+top: 303px;
+
+background: url(saveetha.png);
+/* Line 4 */
+
+position: absolute;
+width: 829px;
+height: 0px;
+left: 49px;
+top: 760px;
+
+border: 3px solid #FFFFFF;
+transform: rotate(0.14deg);
+/* Rectangle 2 */
+
+position: absolute;
+width: 560px;
+height: 124px;
+left: 199px;
+top: 1309px;
+
+background: #E5E5E5;
+/* REGISTRATION */
+
+position: absolute;
+width: 404px;
+height: 65px;
+left: 277px;
+top: 1338px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 130%;
+/* identical to box height, or 65px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+/* Android Large - 2 */
+
+position: relative;
+width: 893px;
+height: 1594px;
+
+background: #967BE3;
 
 
-Registration page 
+/* Line 2 */
 
-// Event  registration form  
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// Name :<br/>
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// Department :
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// E -mail :
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// Mobile no :
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
+position: absolute;
+width: 920px;
+height: 0px;
+left: -8.5px;
+top: 207px;
 
- <div style="width: 100%; height: 100%; position: relative; background: white">
-    <img style="width: 360px; height: 716px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/360x716" />
-    <div style="width: 306px; height: 22px; left: 27px; top: 100px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">Event  registration form  </div>
-    <img style="width: 360px; height: 86px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/360x86" />
-    <div style="width: 234px; height: 38px; left: 32px; top: 171px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">Name :<br/></div>
-    <div style="width: 246px; height: 55px; left: 57px; top: 209px; position: absolute; background: rgba(67.38, 224.61, 215.18, 0.54)"></div>
-    <div style="width: 238px; height: 37px; left: 32px; top: 286px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">Department :</div>
-    <div style="width: 246px; height: 51px; left: 57px; top: 337px; position: absolute; background: rgba(67.38, 224.61, 215.18, 0.54)"></div>
-    <div style="width: 149px; height: 48px; left: 32px; top: 419px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">E -mail :</div>
-    <div style="width: 246px; height: 46px; left: 57px; top: 465px; position: absolute; background: rgba(67.38, 224.61, 215.18, 0.54)"></div>
-    <div style="width: 246px; height: 49px; left: 57px; top: 598px; position: absolute; background: rgba(67.38, 224.61, 215.18, 0.54)"></div>
-    <div style="width: 213px; height: 43px; left: 32px; top: 533px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">Mobile no :</div>
-</div>
+border: 4px solid #FFFFFF;
+/* SAVEETHA ENGINEERNG COLLEGE */
 
-Contact Us page 
+position: absolute;
+width: 920px;
+height: 187px;
+left: -8px;
+top: 20px;
 
-// THANK YOU <br/><br/>
-color: #F43737;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// we are eagerly waiting for your participation in dance events.
-color: #3B37F4;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// CONTACT US <br/>www.saveetha.ac.in<br/>8939902737
-color: black;
- font-size: 24px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
+font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 130%;
+/* or 65px */
+display: flex;
+align-items: center;
+text-align: center;
 
- <div style="width: 100%; height: 100%; position: relative; background: white">
-    <img style="width: 391px; height: 716px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/391x716" />
-    <img style="width: 391px; height: 83px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/391x83" />
-    <img style="width: 204px; height: 204px; left: 94px; top: 124px; position: absolute" src="https://via.placeholder.com/204x204" />
-    <div style="width: 309px; height: 178px; left: 39px; top: 369px; position: absolute; text-align: center"><span style="color: #F43737; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">THANK YOU <br/><br/></span><span style="color: #3B37F4; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">we are eagerly waiting for your participation in dance events.</span></div>
-    <div style="width: 315px; height: 127px; left: 41px; top: 549px; position: absolute; text-align: center; color: black; font-size: 24px; font-family: Inter; font-weight: 800; word-wrap: break-word">CONTACT US <br/>www.saveetha.ac.in<br/>8939902737</div>
-</div>
+color: #FFFFFF;
+/* SPORTS EVENTS */
 
+position: absolute;
+width: 472px;
+height: 99px;
+left: 10px;
+top: 636px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+/* or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+/* saveetha 4 */
+
+position: absolute;
+width: 343px;
+height: 309px;
+left: 280px;
+top: 298px;
+
+background: url(saveetha.png);
+/* 100 METERS 200 METERS LONG JUMP SHORT-PUT BADMINTON TABLE TENNIS */
+
+position: absolute;
+width: 341px;
+height: 638px;
+left: 303px;
+top: 764px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+/* or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+/* image 1 */
+
+position: absolute;
+width: 542px;
+height: 636px;
+left: -60px;
+top: 1083px;
+
+background: url(image.png);
+/* image 2 */
+
+position: absolute;
+width: 345px;
+height: 190px;
+left: 567px;
+top: 1389px;
+
+background: url(image.png);
+
+
+/* Android Large - 3 */
+
+position: relative;
+width: 893px;
+height: 1594px;
+
+background: #83A2DE;
+/* SAVEETHA ENGINEERNG COLLEGE */
+
+position: absolute;
+width: 920px;
+height: 187px;
+left: -13px;
+top: 31px;
+
+font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 130%;
+/* or 65px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+/* Line 2 */
+
+position: absolute;
+width: 920px;
+height: 0px;
+left: 0px;
+top: 218px;
+
+border: 4px solid #FFFFFF;
+/* saveetha 3 */
+position: absolute;
+width: 343px;
+height: 309px;
+left: 313px;
+top: 288px;
+
+background: url(saveetha.png);
+
+/* TIMINGS : */
+
+position: absolute;
+width: 472px;
+height: 99px;
+left: -46px;
+top: 645px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+/* or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #090808;
+/* 3.00 - 5.00 */
+
+position: absolute;
+width: 472px;
+height: 99px;
+left: 224px;
+top: 1080px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+/* or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+/* 1.00 - 3.00 */
+
+position: absolute;
+width: 472px;
+height: 99px;
+left: 224px;
+top: 981px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+/* or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+/* 10.00 - 12.00 */
+
+position: absolute;
+width: 472px;
+height: 99px;
+left: 224px;
+top: 869px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+/* or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+/* 8.00 - 10.00 */
+
+position: absolute;
+width: 472px;
+height: 99px;
+left: 224px;
+top: 770px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+/* or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+color: #181616;
+
+/* image 3 */
+
+position: absolute;
+width: 562px;
+height: 276px;
+left: 166px;
+top: 1292px;
+
+background: url(image.png);
 ```
 ## OUTPUT:
+![329872283-408d49a3-abd7-497f-aeff-824cae8ba85c](https://github.com/amirthaviswanathan05/Figma/assets/149035397/f56c0d2a-1f88-4000-a87a-5d5a2fb2d726)
 
-![alt text](<Screenshot 2025-05-20 104019.png>)
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
